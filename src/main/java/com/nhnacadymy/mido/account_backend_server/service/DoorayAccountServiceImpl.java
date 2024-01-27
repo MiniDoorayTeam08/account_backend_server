@@ -1,9 +1,12 @@
 package com.nhnacadymy.mido.account_backend_server.service;
 
+import com.nhnacadymy.mido.account_backend_server.domain.AccountRegisterRequest;
 import com.nhnacadymy.mido.account_backend_server.entity.DoorayAccount;
 import com.nhnacadymy.mido.account_backend_server.exception.AccountAlreadyException;
+import com.nhnacadymy.mido.account_backend_server.domain.AccountDto;
 import com.nhnacadymy.mido.account_backend_server.exception.AccountNotExistException;
 import com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepository;
+import java.util.List;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -21,10 +24,10 @@ public class DoorayAccountServiceImpl implements DoorayAccountService{
     }
 
     @Override
-    public String createAccount(DoorayAccount account) {
+    public String createAccount(AccountRegisterRequest account) {
         boolean isExist = doorayAccountRepository.existsById(account.getId());
         if(isExist) throw new AccountAlreadyException();
-        doorayAccountRepository.save(account);
+        doorayAccountRepository.save(AccountRegisterRequest.createAccount(account));
         return "create : " + account.getId();
     }
 
@@ -39,6 +42,12 @@ public class DoorayAccountServiceImpl implements DoorayAccountService{
     public DoorayAccount getAccount(String accountId) {
         return doorayAccountRepository.findById(accountId).orElseThrow(AccountNotExistException::new);
     }
+
+    @Override
+    public List<AccountDto> getAccountList(String accountStatus) {
+        return doorayAccountRepository.findAllByAccountStatus("가입");
+    }
+
     @Override
     public String setAccountDormantStatus(String id, String status ) {
         DoorayAccount account = doorayAccountRepository.findById(id)

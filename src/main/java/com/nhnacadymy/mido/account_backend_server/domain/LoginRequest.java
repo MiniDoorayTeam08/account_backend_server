@@ -12,5 +12,5 @@ import lombok.Setter;
 public class LoginRequest {
 
     String id;
-    String pwd;
+    String password;
 }
