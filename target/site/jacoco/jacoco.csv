@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+account_backend_server,com.nhnacadymy.mido.account_backend_server.service,DoorayAccountServiceImpl,0,77,0,2,0,17,0,8,0,7
+account_backend_server,com.nhnacadymy.mido.account_backend_server.controller,AccountRestController,0,37,0,0,0,8,0,6,0,6
+account_backend_server,com.nhnacadymy.mido.account_backend_server.controller,GlobalExceptionHandler,0,15,0,0,0,3,0,3,0,3
+account_backend_server,com.nhnacadymy.mido.account_backend_server.exception,AccountAlreadyException,0,3,0,0,0,1,0,1,0,1
+account_backend_server,com.nhnacadymy.mido.account_backend_server.exception,AccountNotExistException,0,3,0,0,0,1,0,1,0,1
+account_backend_server,com.nhnacadymy.mido.account_backend_server.entity,DoorayAccount,4,42,0,0,0,7,1,9,1,9
+account_backend_server,com.nhnacadymy.mido.account_backend_server,AccountBackendServerApplication,5,3,0,0,2,1,1,1,1,1
+account_backend_server,com.nhnacadymy.mido.account_backend_server.domain,AccountRegisterRequest,0,47,0,0,0,7,0,9,0,9
+account_backend_server,com.nhnacadymy.mido.account_backend_server.domain,SetAccountRequest,0,26,0,0,0,5,0,6,0,6
+account_backend_server,com.nhnacadymy.mido.account_backend_server.domain,LoginRequest,0,26,0,0,0,5,0,6,0,6

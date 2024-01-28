@@ -1,9 +1,9 @@
 package com.nhnacadymy.mido.account_backend_server.service;
 
+import com.nhnacadymy.mido.account_backend_server.domain.AccountDto;
 import com.nhnacadymy.mido.account_backend_server.domain.AccountRegisterRequest;
 import com.nhnacadymy.mido.account_backend_server.entity.DoorayAccount;
 import com.nhnacadymy.mido.account_backend_server.exception.AccountAlreadyException;
-import com.nhnacadymy.mido.account_backend_server.domain.AccountDto;
 import com.nhnacadymy.mido.account_backend_server.exception.AccountNotExistException;
 import com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepository;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-public class DoorayAccountServiceImpl implements DoorayAccountService{
+public class DoorayAccountServiceImpl implements DoorayAccountService {
     private final DoorayAccountRepository doorayAccountRepository;
 
     public DoorayAccountServiceImpl(DoorayAccountRepository doorayAccountRepository) {
@@ -28,7 +28,7 @@ public class DoorayAccountServiceImpl implements DoorayAccountService{
     @Transactional
     public String createAccount(AccountRegisterRequest account) {
         boolean isExist = doorayAccountRepository.existsById(account.getId());
-        if(isExist) throw new AccountAlreadyException();
+        if (isExist) throw new AccountAlreadyException();
         doorayAccountRepository.save(AccountRegisterRequest.createAccount(account));
         return "create : " + account.getId();
     }
@@ -37,7 +37,6 @@ public class DoorayAccountServiceImpl implements DoorayAccountService{
     public DoorayAccount login(String id, String pwd) {
         return doorayAccountRepository.findByIdAndPassword(id, pwd).orElseThrow(AccountNotExistException::new);
     }
-
 
 
     @Override
@@ -51,7 +50,7 @@ public class DoorayAccountServiceImpl implements DoorayAccountService{
     }
 
     @Override
-    public String setAccountDormantStatus(String id, String status ) {
+    public String setAccountDormantStatus(String id, String status) {
         DoorayAccount account = doorayAccountRepository.findById(id)
                 .orElseThrow(AccountNotExistException::new);
 

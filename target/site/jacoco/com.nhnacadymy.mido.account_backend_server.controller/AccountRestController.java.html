@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AccountRestController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">account_backend_server</a> &gt; <a href="index.source.html" class="el_package">com.nhnacadymy.mido.account_backend_server.controller</a> &gt; <span class="el_source">AccountRestController.java</span></div><h1>AccountRestController.java</h1><pre class="source lang-java linenums">package com.nhnacadymy.mido.account_backend_server.controller;
+
+import com.nhnacadymy.mido.account_backend_server.domain.AccountDto;
+import com.nhnacadymy.mido.account_backend_server.domain.AccountRegisterRequest;
+import com.nhnacadymy.mido.account_backend_server.domain.LoginRequest;
+import com.nhnacadymy.mido.account_backend_server.domain.SetAccountRequest;
+import com.nhnacadymy.mido.account_backend_server.entity.DoorayAccount;
+import com.nhnacadymy.mido.account_backend_server.service.DoorayAccountService;
+import java.util.List;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping(&quot;/accounts&quot;)
+public class AccountRestController {
+
+    private final DoorayAccountService doorayAccountService;
+
+<span class="fc" id="L19">    public AccountRestController(DoorayAccountService accountService) {</span>
+<span class="fc" id="L20">        this.doorayAccountService = accountService;</span>
+<span class="fc" id="L21">    }</span>
+
+    @GetMapping(&quot;/{accountId}&quot;)
+    public DoorayAccount getAccount(@PathVariable String accountId) {
+<span class="fc" id="L25">        return doorayAccountService.getAccount(accountId);</span>
+    }
+
+    @GetMapping
+    public List&lt;AccountDto&gt; getAccounts() {
+<span class="fc" id="L30">        return doorayAccountService.getAccountList(&quot;가입&quot;);</span>
+    }
+
+    @PostMapping(&quot;/register&quot;)
+    @ResponseStatus(HttpStatus.CREATED)
+    public String createAccount(@RequestBody AccountRegisterRequest doorayAccount) {
+<span class="fc" id="L36">        return doorayAccountService.createAccount(doorayAccount);</span>
+    }
+
+    @PostMapping(&quot;/login&quot;)
+    public DoorayAccount login(@RequestBody LoginRequest request) {
+<span class="fc" id="L41">        return doorayAccountService.login(request.getId(), request.getPassword());</span>
+    }
+
+    @PutMapping(&quot;/status&quot;)
+    public String setAccountStatus(@RequestBody SetAccountRequest request) {
+<span class="fc" id="L46">        return doorayAccountService.setAccountDormantStatus(request.getId(), request.getStatus());</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

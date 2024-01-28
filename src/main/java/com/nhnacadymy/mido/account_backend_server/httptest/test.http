@@ -1,0 +1,52 @@
+### Get Account by ID
+GET http://localhost:9090/accounts/user
+Content-Type: application/json
+
+###
+
+### Get All Accounts
+GET http://localhost:9090/accounts
+Content-Type: application/json
+
+###
+
+### Create Account
+POST http://localhost:9090/accounts/register
+Content-Type: application/json
+
+{
+  "id" : "usertest1",
+  "password" : "12345",
+  "email" : "test@dooray.com"
+}
+
+###
+
+### Login
+POST http://localhost:9090/accounts/login
+Content-Type: application/json
+
+{
+  "id": "usertest1",
+  "password": "12345"
+}
+
+###
+
+### Set Account Status
+PUT http://localhost:9090/accounts/status
+Content-Type: application/json
+
+{
+  "id": "usertest1",
+  "status": "휴면"
+}
+###
+PUT http://localhost:9090/accounts/status
+Content-Type: application/json
+
+{
+  "id": "usertest1",
+  "status": "가입"
+}
+###

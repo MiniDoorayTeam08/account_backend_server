@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DoorayAccountServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">account_backend_server</a> &gt; <a href="index.source.html" class="el_package">com.nhnacadymy.mido.account_backend_server.service</a> &gt; <span class="el_source">DoorayAccountServiceImpl.java</span></div><h1>DoorayAccountServiceImpl.java</h1><pre class="source lang-java linenums">package com.nhnacadymy.mido.account_backend_server.service;
+
+import com.nhnacadymy.mido.account_backend_server.domain.AccountDto;
+import com.nhnacadymy.mido.account_backend_server.domain.AccountRegisterRequest;
+import com.nhnacadymy.mido.account_backend_server.entity.DoorayAccount;
+import com.nhnacadymy.mido.account_backend_server.exception.AccountAlreadyException;
+import com.nhnacadymy.mido.account_backend_server.exception.AccountNotExistException;
+import com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepository;
+import java.util.List;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service
+public class DoorayAccountServiceImpl implements DoorayAccountService {
+    private final DoorayAccountRepository doorayAccountRepository;
+
+<span class="fc" id="L17">    public DoorayAccountServiceImpl(DoorayAccountRepository doorayAccountRepository) {</span>
+<span class="fc" id="L18">        this.doorayAccountRepository = doorayAccountRepository;</span>
+<span class="fc" id="L19">    }</span>
+
+    @Override
+    public String deleteAccount(String id) {
+<span class="fc" id="L23">        doorayAccountRepository.deleteById(id);</span>
+<span class="fc" id="L24">        return id + &quot;is deleted&quot;;</span>
+    }
+
+    @Override
+    @Transactional
+    public String createAccount(AccountRegisterRequest account) {
+<span class="fc" id="L30">        boolean isExist = doorayAccountRepository.existsById(account.getId());</span>
+<span class="fc bfc" id="L31" title="All 2 branches covered.">        if (isExist) throw new AccountAlreadyException();</span>
+<span class="fc" id="L32">        doorayAccountRepository.save(AccountRegisterRequest.createAccount(account));</span>
+<span class="fc" id="L33">        return &quot;create : &quot; + account.getId();</span>
+    }
+
+    @Override
+    public DoorayAccount login(String id, String pwd) {
+<span class="fc" id="L38">        return doorayAccountRepository.findByIdAndPassword(id, pwd).orElseThrow(AccountNotExistException::new);</span>
+    }
+
+
+    @Override
+    public DoorayAccount getAccount(String accountId) {
+<span class="fc" id="L44">        return doorayAccountRepository.findById(accountId).orElseThrow(AccountNotExistException::new);</span>
+    }
+
+    @Override
+    public List&lt;AccountDto&gt; getAccountList(String accountStatus) {
+<span class="fc" id="L49">        return doorayAccountRepository.findAllByAccountStatus(&quot;가입&quot;);</span>
+    }
+
+    @Override
+    public String setAccountDormantStatus(String id, String status) {
+<span class="fc" id="L54">        DoorayAccount account = doorayAccountRepository.findById(id)</span>
+<span class="fc" id="L55">                .orElseThrow(AccountNotExistException::new);</span>
+
+<span class="fc" id="L57">        account.setAccountStatus(status);</span>
+<span class="fc" id="L58">        doorayAccountRepository.save(account);</span>
+
+<span class="fc" id="L60">        return &quot;Account (&quot; + id + &quot;) : now set status to &quot; + status;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.649 s - in com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.648 s - in com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests

@@ -1,0 +1,85 @@
+PUT http://localhost:9090/accounts/status
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "usertest1",
+  "status": "휴면"
+}
+
+<> 2024-01-28T202926.200.txt
+
+###
+
+POST http://localhost:9090/accounts/login
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "usertest1",
+  "password": "12345"
+}
+
+<> 2024-01-28T202920.200.json
+
+###
+
+POST http://localhost:9090/accounts/login
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "existingAccountId",
+  "password": "password123"
+}
+
+<> 2024-01-28T202912.404.txt
+
+###
+
+POST http://localhost:9090/accounts/register
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id" : "usertest1",
+  "password" : "12345",
+  "email" : "test@dooray.com"
+}
+
+<> 2024-01-28T202908.201.txt
+
+###
+
+GET http://localhost:9090/accounts
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-28T202852.200.json
+
+###
+
+GET http://localhost:9090/accounts/user
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-28T202850.200.json
+
+###
+

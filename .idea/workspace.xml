@@ -5,30 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ddd6748-0f7a-4be3-883f-58561d08b457" name="Changes" comment="not Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76edf3ef8df018f494dbfe2d021d817f9b3d3e8a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76edf3ef8df018f494dbfe2d021d817f9b3d3e8a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/account_backend_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/account_backend_server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/AccountBackendServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/AccountBackendServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/domain/AccountRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/domain/AccountRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/account_backend_server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/account_backend_server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.service.DoorayAccountServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.service.DoorayAccountServiceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.service.DoorayAccountServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.service.DoorayAccountServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -66,6 +73,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -80,10 +90,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.test | Get Account by ID.executor": "Run",
+    "JUnit.AccountBackendServerApplicationTests.executor": "Run",
     "JUnit.AccountRestControllerTest.createAccount.executor": "Run",
     "JUnit.AccountRestControllerTest.createAccountAlreadyExist.executor": "Run",
     "JUnit.AccountRestControllerTest.executor": "Run",
     "JUnit.AccountRestControllerTest.getAccountNotExist.executor": "Run",
+    "JUnit.AccountRestControllerTest.getAccounts.executor": "Run",
+    "JUnit.AccountRestControllerTest.login.executor": "Run",
+    "JUnit.AccountRestControllerTest.loginNotFound.executor": "Run",
+    "JUnit.AccountRestControllerTest.setAccountStatus.executor": "Run",
+    "JUnit.AccountRestControllerTest.setAccountStatusNotExist.executor": "Run",
+    "JUnit.DoorayAccountRepositoryTest.executor": "Run",
+    "JUnit.DoorayAccountRepositoryTest.findAllByAccountStatus.executor": "Run",
+    "JUnit.DoorayAccountRepositoryTest.findByIdAndPassword.executor": "Run",
+    "JUnit.DoorayAccountServiceTest.executor": "Run",
+    "JUnit.account_backend_server in account_backend_server.executor": "Coverage",
+    "JUnit.java in account_backend_server.executor": "Coverage",
     "Maven.account_backend_server [clean].executor": "Run",
     "Maven.account_backend_server [compile].executor": "Run",
     "Maven.account_backend_server [package].executor": "Run",
@@ -107,7 +130,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
@@ -126,66 +149,61 @@
       <recent name="com.nhnacadymy.mido.account_backend_server.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountRestControllerTest.createAccountAlreadyExist">
-    <configuration name="AccountRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.AccountBackendServerApplication">
+    <configuration name="test | Get Account by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" requestIdentifier="Get Account by ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="DoorayAccountRepositoryTest.findAllByAccountStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="account_backend_server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest" />
+      <option name="METHOD_NAME" value="findAllByAccountStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorayAccountRepositoryTest.findByIdAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_backend_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest" />
+      <option name="METHOD_NAME" value="findByIdAndPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorayAccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_backend_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.service" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.service.DoorayAccountServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountRestControllerTest.createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in account_backend_server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="account_backend_server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
-      <option name="METHOD_NAME" value="createAccount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountRestControllerTest.createAccountAlreadyExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_backend_server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
-      <option name="METHOD_NAME" value="createAccountAlreadyExist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountRestControllerTest.getAccountNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_backend_server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
-      <option name="METHOD_NAME" value="getAccountNotExist" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,10 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountRestControllerTest.createAccountAlreadyExist" />
-        <item itemvalue="JUnit.AccountRestControllerTest.getAccountNotExist" />
-        <item itemvalue="JUnit.AccountRestControllerTest.createAccount" />
-        <item itemvalue="JUnit.AccountRestControllerTest" />
+        <item itemvalue="HTTP Request.test | Get Account by ID" />
+        <item itemvalue="JUnit.java in account_backend_server" />
+        <item itemvalue="JUnit.DoorayAccountServiceTest" />
+        <item itemvalue="JUnit.DoorayAccountRepositoryTest.findAllByAccountStatus" />
+        <item itemvalue="JUnit.DoorayAccountRepositoryTest.findByIdAndPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +245,7 @@
       <workItem from="1706167789367" duration="1573000" />
       <workItem from="1706170042227" duration="2430000" />
       <workItem from="1706180825266" duration="13621000" />
-      <workItem from="1706422413763" duration="5898000" />
+      <workItem from="1706422413763" duration="14371000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <option name="closed" value="true" />
@@ -266,6 +285,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git ignore" />
     <MESSAGE value="first commit" />
@@ -273,10 +303,32 @@
     <option name="LAST_COMMIT_MESSAGE" value="not Test" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.java</url>
+          <line>68</line>
+          <properties class="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" method="createAccountAlreadyExist">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" memberName="parameterNameDiscoverer" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/account_backend_server$account_backend_server_in_account_backend_server.ic" NAME="account_backend_server in account_backend_server Coverage Results" MODIFIED="1706430202002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/account_backend_server$java_in_account_backend_server.ic" NAME="java in account_backend_server Coverage Results" MODIFIED="1706438877168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -15,7 +15,7 @@ public class AccountRegisterRequest {
     String password;
     String email;
 
-    public static DoorayAccount createAccount(AccountRegisterRequest request){
+    public static DoorayAccount createAccount(AccountRegisterRequest request) {
         return new DoorayAccount(request.id, request.password, request.email, "가입");
     }
 }
