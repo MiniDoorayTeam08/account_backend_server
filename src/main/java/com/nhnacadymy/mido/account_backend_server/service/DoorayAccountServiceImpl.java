@@ -8,6 +8,7 @@ import com.nhnacadymy.mido.account_backend_server.exception.AccountNotExistExcep
 import com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepository;
 import java.util.List;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class DoorayAccountServiceImpl implements DoorayAccountService{
@@ -24,6 +25,7 @@ public class DoorayAccountServiceImpl implements DoorayAccountService{
     }
 
     @Override
+    @Transactional
     public String createAccount(AccountRegisterRequest account) {
         boolean isExist = doorayAccountRepository.existsById(account.getId());
         if(isExist) throw new AccountAlreadyException();

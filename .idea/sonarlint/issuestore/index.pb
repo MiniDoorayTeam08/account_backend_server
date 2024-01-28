@@ -45,3 +45,13 @@ Rsrc/main/java/com/nhnacadymy/mido/account_backend_server/entity/DoorayAccount.j
 Qsrc/main/java/com/nhnacadymy/mido/account_backend_server/domain/LoginRequest.java,7/a/7a2232c8f8aaca865586d931eedcd3c71489694f
 †
 Vsrc/main/java/com/nhnacadymy/mido/account_backend_server/domain/SetAccountRequest.java,5/e/5e5c95075bb17078d661b4df15591b48aadb6fa6
+
+Osrc/main/java/com/nhnacadymy/mido/account_backend_server/domain/AccountDto.java,7/c/7cf6f4a25ebe2c8d9272660b27a2a035bf9bdb12
+’
+bsrc/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.java,f/5/f5ba7579e173ed2ea3ae552cd36f7384cca8ad3a
+‹
+[src/main/java/com/nhnacadymy/mido/account_backend_server/domain/AccountRegisterRequest.java,2/3/2377b76d7db631de2d49d41970b4e579e273739a
+Ž
+^src/test/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.java,f/9/f9deacb562e9cf6a3317d127703413a8375bedb1
+”
+dsrc/test/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.java,3/4/3459786e45e9650e9428cf26e0837821173ce3ac

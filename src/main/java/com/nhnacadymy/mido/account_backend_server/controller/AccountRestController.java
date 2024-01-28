@@ -29,8 +29,8 @@ public class AccountRestController {
         return doorayAccountService.getAccountList("가입");
     }
 
-    @PostMapping("/register")
     @ResponseStatus(HttpStatus.CREATED)
+    @PostMapping("/register")
     public String createAccount(@RequestBody AccountRegisterRequest doorayAccount) {
         return doorayAccountService.createAccount(doorayAccount);
     }

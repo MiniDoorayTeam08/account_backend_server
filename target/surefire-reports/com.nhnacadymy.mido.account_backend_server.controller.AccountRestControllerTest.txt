@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.867 s <<< FAILURE! - in com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest
+createAccountAlreadyExist  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<201>
+	at com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest.createAccountAlreadyExist(AccountRestControllerTest.java:75)
+

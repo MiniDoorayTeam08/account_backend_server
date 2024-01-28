@@ -5,19 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ddd6748-0f7a-4be3-883f-58561d08b457" name="Changes" comment="not Test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/domain/AccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/domain/AccountRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76edf3ef8df018f494dbfe2d021d817f9b3d3e8a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76edf3ef8df018f494dbfe2d021d817f9b3d3e8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/domain/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/domain/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/account_backend_server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/account_backend_server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController 2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +39,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -63,7 +80,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AccountRestControllerTest.createAccount.executor": "Run",
+    "JUnit.AccountRestControllerTest.createAccountAlreadyExist.executor": "Run",
+    "JUnit.AccountRestControllerTest.executor": "Run",
+    "JUnit.AccountRestControllerTest.getAccountNotExist.executor": "Run",
+    "Maven.account_backend_server [clean].executor": "Run",
+    "Maven.account_backend_server [compile].executor": "Run",
     "Maven.account_backend_server [package].executor": "Run",
+    "Maven.account_backend_server [test].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -73,6 +97,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "Spring Boot.AccountBackendServerApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/jeongbyeonghun/Desktop/스프링과정/미니두레이/account_backend_server",
@@ -91,8 +117,79 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.nhnacadymy.mido.account_backend_server.domain" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nhnacadymy.mido.account_backend_server.service" />
+      <recent name="com.nhnacadymy.mido.account_backend_server.repository" />
+      <recent name="com.nhnacadymy.mido.account_backend_server.controller" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AccountRestControllerTest.createAccountAlreadyExist">
+    <configuration name="AccountRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_backend_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRestControllerTest.createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_backend_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
+      <option name="METHOD_NAME" value="createAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRestControllerTest.createAccountAlreadyExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_backend_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
+      <option name="METHOD_NAME" value="createAccountAlreadyExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRestControllerTest.getAccountNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_backend_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.controller.AccountRestControllerTest" />
+      <option name="METHOD_NAME" value="getAccountNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountBackendServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account_backend_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nhnacadymy.mido.account_backend_server.AccountBackendServerApplication" />
@@ -100,6 +197,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountRestControllerTest.createAccountAlreadyExist" />
+        <item itemvalue="JUnit.AccountRestControllerTest.getAccountNotExist" />
+        <item itemvalue="JUnit.AccountRestControllerTest.createAccount" />
+        <item itemvalue="JUnit.AccountRestControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -120,7 +225,8 @@
       <workItem from="1706148649574" duration="812000" />
       <workItem from="1706167789367" duration="1573000" />
       <workItem from="1706170042227" duration="2430000" />
-      <workItem from="1706180825266" duration="9427000" />
+      <workItem from="1706180825266" duration="13621000" />
+      <workItem from="1706422413763" duration="5898000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <option name="closed" value="true" />
@@ -167,15 +273,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="not Test" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRestController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" memberName="parameterNameDiscoverer" />
