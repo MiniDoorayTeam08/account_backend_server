@@ -5,7 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ddd6748-0f7a-4be3-883f-58561d08b457" name="Changes" comment="not Test">
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-01-28T202850.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-01-28T202852.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-01-28T202908.201.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-01-28T202912.404.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-01-28T202920.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-01-28T202926.200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/account_backend_server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/account_backend_server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.controller/AccountRestController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.controller/AccountRestController.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.controller/GlobalExceptionHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.controller/GlobalExceptionHandler.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.controller/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/AccountRegisterRequest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/AccountRegisterRequest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/LoginRequest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/LoginRequest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/SetAccountRequest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/SetAccountRequest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.domain/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.entity/DoorayAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.entity/DoorayAccount.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.entity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.entity/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.exception/AccountAlreadyException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.exception/AccountAlreadyException.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.exception/AccountNotExistException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.exception/AccountNotExistException.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.exception/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.exception/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.service/DoorayAccountServiceImpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.service/DoorayAccountServiceImpl.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.service/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server.service/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server/AccountBackendServerApplication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server/AccountBackendServerApplication.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.nhnacadymy.mido.account_backend_server/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sonar/.sonar_lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sonar/report-task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nhnacadymy/mido/account_backend_server/controller/AccountRestControllerTest$AccountDtoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/account_backend_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/account_backend_server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -90,6 +160,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.test | #2.executor": "Run",
+    "HTTP Request.test | #3.executor": "Run",
+    "HTTP Request.test | #4.executor": "Run",
+    "HTTP Request.test | #5.executor": "Run",
     "HTTP Request.test | Get Account by ID.executor": "Run",
     "JUnit.AccountBackendServerApplicationTests.executor": "Run",
     "JUnit.AccountRestControllerTest.createAccount.executor": "Run",
@@ -153,60 +227,17 @@
     <configuration name="test | Get Account by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" requestIdentifier="Get Account by ID" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="DoorayAccountRepositoryTest.findAllByAccountStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_backend_server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest" />
-      <option name="METHOD_NAME" value="findAllByAccountStatus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="DoorayAccountRepositoryTest.findByIdAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_backend_server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.repository.DoorayAccountRepositoryTest" />
-      <option name="METHOD_NAME" value="findByIdAndPassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="DoorayAccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_backend_server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nhnacadymy.mido.account_backend_server.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nhnacadymy.mido.account_backend_server.service" />
-      <option name="MAIN_CLASS_NAME" value="com.nhnacadymy.mido.account_backend_server.service.DoorayAccountServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="java in account_backend_server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_backend_server" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="AccountBackendServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account_backend_server" />
@@ -217,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test | #5" />
+        <item itemvalue="HTTP Request.test | #4" />
+        <item itemvalue="HTTP Request.test | #3" />
+        <item itemvalue="HTTP Request.test | #2" />
         <item itemvalue="HTTP Request.test | Get Account by ID" />
-        <item itemvalue="JUnit.java in account_backend_server" />
-        <item itemvalue="JUnit.DoorayAccountServiceTest" />
-        <item itemvalue="JUnit.DoorayAccountRepositoryTest.findAllByAccountStatus" />
-        <item itemvalue="JUnit.DoorayAccountRepositoryTest.findByIdAndPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +276,7 @@
       <workItem from="1706167789367" duration="1573000" />
       <workItem from="1706170042227" duration="2430000" />
       <workItem from="1706180825266" duration="13621000" />
-      <workItem from="1706422413763" duration="14371000" />
+      <workItem from="1706422413763" duration="14611000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <option name="closed" value="true" />

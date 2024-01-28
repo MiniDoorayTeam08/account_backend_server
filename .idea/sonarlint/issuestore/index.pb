@@ -55,3 +55,7 @@ bsrc/test/java/com/nhnacadymy/mido/account_backend_server/controller/AccountRest
 ^src/test/java/com/nhnacadymy/mido/account_backend_server/service/DoorayAccountServiceTest.java,f/9/f9deacb562e9cf6a3317d127703413a8375bedb1
 î
 dsrc/test/java/com/nhnacadymy/mido/account_backend_server/repository/DoorayAccountRepositoryTest.java,3/4/3459786e45e9650e9428cf26e0837821173ce3ac
+è
+_src/main/java/com/nhnacadymy/mido/account_backend_server/controller/GlobalExceptionHandler.java,e/d/ed8d714e349d2a4aa9a0fcfaa36d09ce8dd256d5
+{
+Ksrc/main/java/com/nhnacadymy/mido/account_backend_server/httptest/test.http,7/c/7ceb7ba3ad23eeba518b7740200d05c452b36edc
